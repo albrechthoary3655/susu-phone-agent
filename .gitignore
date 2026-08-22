@@ -1,0 +1,34 @@
+# Secrets — never commit these
+.env
+*.token
+*_token.txt
+*_key.txt
+*.jks
+*.keystore
+local.properties
+secrets.properties
+
+# Build artifacts
+android/build/
+android/output/
+android/libs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Android
+*.apk
+*.idsig
+*.class
+*.dex
+gen/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
