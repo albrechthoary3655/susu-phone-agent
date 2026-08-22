@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
         addLabel(root, "─── Sleep Guard ───");
         tvGuardStatus = addMono(root, "Guard:     Disabled");
 
-        // CheckBox: 默认 OFF，今晚绝对不开
+        // CheckBox: off by default — user must explicitly enable
         chkGuard = new CheckBox(this);
         chkGuard.setText("Enable Sleep Guard  ⚠ 默认关闭，锁机保护");
         chkGuard.setChecked(false);  // 硬编码 default OFF
@@ -103,14 +103,14 @@ public class MainActivity extends Activity {
 
         addSep(root);
 
-        // Honor 保活提示
+        // OEM background-survival hints (Honor / MIUI / ColorOS have aggressive app killers)
         addLabel(root,
-            "⚠ Honor 后台保活：\n" +
-            "1. 设置 → 应用 → Phone Agent → 电池 → 无限制\n" +
-            "2. 设置 → 省电 → 应用省电管理 → Phone Agent → 无限制\n" +
-            "3. 省电管理 → 自启动 → Phone Agent 开启\n\n" +
-            "Sleep Guard: 需要 guard_enabled=true AND server active=true 才会锁机。\n" +
-            "今晚请确保 Enable Sleep Guard 处于 ✗ 状态。");
+            "⚠ Background keep-alive (Honor / MIUI / ColorOS):\n" +
+            "1. Settings → Apps → Phone Agent → Battery → No restrictions\n" +
+            "2. Settings → Battery → App battery management → Phone Agent → No restrictions\n" +
+            "3. Enable auto-start for Phone Agent in system settings\n\n" +
+            "Sleep Guard: requires guard_enabled=true AND server active=true to act.\n" +
+            "Sleep Guard is off by default. Enable it only after verifying your setup.");
 
         // 加载已保存配置
         SharedPreferences p = prefs();
